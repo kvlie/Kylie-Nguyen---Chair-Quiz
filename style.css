@@ -1,40 +1,54 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .header {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: space-around;
-  color: #0f65ef;
   font-size:27px;
+  border-bottom: 2px solid black;
+  margin-top: -45px;
+}
+
+.header a:hover {
+ color: #0f65ef;
 }
 
 .logo {
-  width: 100px;
+  width: 75px;
 }
 
-.cover{
+.cover {
   text-align: center;
+  margin-top: 20px;
 }
 
 a {
-  color: #0f65ef;
   font-weight: bold;
+  color: black;
+  text-decoration: none;
 }
 
 .coverPhoto {
-  width: 100%;
+  width: 1000px;
+  height: 500px;
+  object-fit: cover;
+  border: 2px solid black;
 }
 
 .displayResult{
   text-align: center;
 }
 
-img{
-  width: 100%;
+.displayResult img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border: 2px solid black;
+  
 }
 
 button {
@@ -44,6 +58,18 @@ button {
   font-size: 40px;
   border-radius: 25px;
   border:3px groove black;
-  font-family: monospace;
+  font-family: 'Poppins', sans-serif;
   padding: 20px;
+}
+
+#quizImg {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+
+.questions {
+  margin-right: 220px;
+  margin-left: 220px;
+  text-align: center;
 }

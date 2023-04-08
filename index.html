@@ -6,45 +6,50 @@
   <meta name="viewport" content="width=device-width">
   <title>BuzzFeed Character Quiz</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
+      <img class="logo" src="images/pngfind.com-buzzfeed-logo-png-74199.png">
   <div class="header">
     <div>
-      <img class="logo" src="images/pngfind.com-buzzfeed-logo-png-74199.png">
     </div>
-    <div><a href="https://www.buzzfeed.com/quizzes">Quizzes</a></div>
-    <div><a href="https://www.buzzfeed.com/tvandmovies">TV & Movies</a></div>
-    <div><a href="https://www.buzzfeed.com/shopping">Shopping</a></div>
-    <div><a href="https://www.buzzfeed.com/news">News</a></div>
-    <div><a href="https://www.buzzfeed.com/tasty">Tasty</a></div>
+    <div><a href="https://www.buzzfeed.com/quizzes">QUIZZES</a></div>
+    <div><a href="https://www.buzzfeed.com/tvandmovies">TV & MOVIES</a></div>
+    <div><a href="https://www.buzzfeed.com/shopping">SHOPPING</a></div>
+    <div><a href="https://www.buzzfeed.com/news">NEWS</a></div>
+    <div><a href="https://www.buzzfeed.com/tasty">TASTY</a></div>
   </div>
 
   <div class="cover">
     <!-- task 1: update the header for your quiz -->
-    <h1> What kind of chair are you?</h1>
+    <img id="quizImg" src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTAgNTAiIGlkPSJxdWl6IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxjaXJjbGUgZmlsbD0iI2ZlMCIgY3g9IjI1IiBjeT0iMjUiIHI9IjI1Ii8+CiAgPHBhdGggZD0iTTE1Ljc4MiAzNy42ODNjLjgxLS40NjggMS40ODUtMS4wNjUgMi4wMTctMS43MjZsMS4zMi40ODYuOTktMi41NjgtMS4xMTQtLjQxN2MuMjk1LTEuMzk3LjA2LTIuOTIzLS43Ny00LjM1Ny0xLjgyNi0zLjE2My01LjQ3NC00LjAxLTguNjU0LTIuMTczLTMuMTggMS44MzYtNC4yODcgNS40MjctMi40NiA4LjU5IDEuODI3IDMuMTY2IDUuNDkgNC4wMDIgOC42NyAyLjE2NnptLTEuMzY4LTIuMzdjLTEuNzE1Ljk5LTMuNjAyLjMxNC00LjU3NC0xLjM3LS45OC0xLjctLjYxNS0zLjY1NyAxLjEtNC42NDcgMS43MTUtLjk5IDMuNTc4LS4zMiA0LjU2IDEuMzguMzE0LjU0Ni40NzcgMS4xMTYuNTI2IDEuNjdsLTEuNjY2LS42MTgtLjk5IDIuNTY4IDEuNjE2LjYwNGMtLjE3Ni4xNjQtLjM3LjI5Ny0uNTcyLjQxNHptMTIuOTA1LTQuMjljMy4zMzUtMS45MjcgMy44NC00LjY1IDIuMzQ3LTcuMjM4bC0zLjU2NC02LjE3My0yLjcxMiAxLjU2NiAzLjUyIDYuMDk1Yy43MSAxLjIzLjQ3NSAyLjU1Mi0uOTYgMy4zOC0xLjQ0OC44MzctMi43MS4zOC0zLjQyLS44NWwtMy41Mi02LjA5Ni0yLjcyOCAxLjU3NSAzLjU3MyA2LjE4OGMxLjQ3NiAyLjU1NyA0LjEyOCAzLjQ3OCA3LjQ2NCAxLjU1MnptOS4wNDMtNS40NzJMMzAuMzYgMTUuMTU1bC0yLjY4IDEuNTQ4TDMzLjY4IDI3LjFsMi42OC0xLjU1em05LjMyNC01LjM4MmwtMS4zNS0yLjMzOC00LjU1MiAyLjYyOCAxLjAxNC04LjUwNC0xLjIyNS0yLjEyLTcuOTY2IDQuNiAxLjM1IDIuMzM3IDQuNDI2LTIuNTU1LTEuMDA3IDguNDggMS4yMzIgMi4xMzUgOC4wNzUtNC42NjJ6IiBmaWxsPSIjMjIyIiAvPgo8L3N2Zz4K">
+    <h1> WHAT CHAIR ARE YOU? FIND OUT HERE!</h1>
+    <p>The world's most asked question will be answered in this quiz.</p>
 
     <!-- task 2: update the cover photo for your quiz -->
-    <img class="coverPhoto" src="https://media.sproutsocial.com/uploads/2018/04/Facebook-Cover-Photo-Size.png">
+    <img class="coverPhoto"
+      src="https://cdn.vox-cdn.com/thumbor/j-sw26baWclSdrxhPeCBat-uJzw=/0x0:3680x1680/1200x800/filters:focal(1546x546:2134x1134)/cdn.vox-cdn.com/uploads/chorus_image/image/53856637/dm_SuomalainenMuoto_kuva_RaunoTraskelin_0257__1_.0.jpg">
   </div>
 
   <!-- task 3: Update the questions for your quiz. Be sure to have AT LEAST three to ask the user. Add more questions if you want!-->
-   <div class="questions">
-    <h3> 1. [Question 1] </h3>
-    <input class="q1">
+  <div class="questions">
+    <h3>What's your name?</h3>
+    <input id="name" placeholder="Enter your name here">
+
+    <h3> 1. What's your fashion style? Comfy, trendy, vintage, or whatever is clean?</h3>
+    <input id="fashion" placeholder="Enter your fashion style here">
     </br>
-    <h3> 2. [Question 2] </h3>
-    <input class="q2">
+    <h3> 2. What's your next travel destination? LA, Paris, Tokyo, or Hanoi?</h3>
+    <input id="travel" placeholder="Enter your next travel destination here">
     </br>
-    <h3> 3. [Question 3] </h3>
-    <input class="q3">
+    <h3> 3. How do you wind down? Calling friends, partying, reading, or playing video games? </h3>
+    <input id="relax" placeholder="Enter how you wind down here">
   </div>
   </br>
 
   <div class="displayResult">
-    <button class="submit"> Submit!</button>
+    <button class="submit"> SUBMIT</button>
   </div>
   </br>
   <script src="script.js"></script>
